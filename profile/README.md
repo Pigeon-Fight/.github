@@ -1,10 +1,30 @@
 ![Cover](https://pigeon-fight.xyz/images/social-seo.png)
 
-# 🌏 Overview
+# 🌏 Overview 🌏
 
 **Pigeon Fight** is a free-to-play, fully on-chain game on the **TON network** that brings unique fun and excitement to players directly on Telegram. Compete with others, earn rewards, and enjoy engaging gameplay anytime, anywhere. With **Pigeon Fight**, you can collect and utilize unique NFTs, build your own pigeon military, and battle against other players for ultimate dominance!
 
-# 🎮 Gameplay
+# 🚀 Key Features 🚀
+
+- **Accessible Anywhere**: Play on the Telegram mini app, no downloads required.
+- **Free to Play**: Jump into the game at no cost and start enjoying right away.
+- **Earn and Play**: Win battles to earn rewards and enhance your experience.
+- **Build Your Pigeon Army**: Create a powerful pigeon military and challenge others in epic battles.
+- **23 Unique NFT Classes**: Collect from a variety of **23 unique pigeon NFTs**, each with special abilities and attributes that add strategy and excitement to gameplay.
+- **Fully On-Chain & Serverless**: Built entirely on the TON blockchain, **Pigeon Fight** operates without central servers, offering a truly decentralized experience.
+- **Decentralized & Secure**: With high security and transparency inherent to blockchain, players can trust that all actions and rewards are fair and open.
+
+# 💰 Shop Items 💰
+
+Enhance your gameplay with powerful items:
+
+- **Potion** 🧪: Fully restores health and energy.
+- **Onigiri** 🍙: Restores half of your health.
+- **Hotdog** 🌭: Heals full health.
+- **Orange** 🍊: Restores half energy.
+- **Popcorn** 🍿: Replenishes full energy.
+
+# 🎮 Gameplay 🎮
 
 All of the game processes are secure, transparent, and entirely on-chain, ensuring that users fully own their minted NFTs. Once minted, the NFT can be used in the game, allowing players to battle, upgrade, and interact with other players.
 
@@ -92,7 +112,11 @@ Pigeon Fight NFT Collection - 23 NFT classes
 | Wizzard 🧙‍♂️✨      | ![Pigeon](images/pigeons/PigeonWizzard.png)      | 5 - 0 - 0                      | 🚫           |
 | Wyrm 🐉🔥         | ![Pigeon](images/pigeons/PigeonWyrm.png)         | 3 - 0 - 0                      | 🚫           |
 
-# 🤼 Community
+# 🎉 Why Play Pigeon Fight? 🎉
+
+**Pigeon Fight** offers a unique combination of competitive gameplay and collectible NFT utility. Enjoy a decentralized, transparent gaming experience where every move and reward is secured on the blockchain. With 23 NFT classes to collect and a variety of power-ups, players have endless opportunities to strategize, compete, and win!
+
+# 🤼 Community 🤼
 
 **Follow Us on Social Media**
 
@@ -102,3 +126,4 @@ Stay updated with our latest news and announcements:
 - [Game](https://game.pigeon-fight.xyz)
 - [Twitter](https://x.com/HoaLe_58)
 - [Telegram](https://t.me/pigeonfightxyz)
+- [TMA](https://t.me/pigeonfight_bot)
