@@ -30,7 +30,7 @@ All of the game processes are secure, transparent, and entirely on-chain, ensuri
 
 To start playing **Pigeon Fight**, users need to own at least one NFT pigeon from our collection on the **TON network**. Below is an overview of the gameplay workflow:
 
-## Step 1: Select & Mint an NFT
+## Step 1: Select & Mint a NFT
 
 1. **Choose a Pigeon Class**: Users begin by selecting the pigeon class they want to mint. Each class has unique abilities and characteristics that impact gameplay.
 2. **Deposit TON**: Based on the selected class, users deposit the required TON amount to cover the class price.
@@ -38,7 +38,9 @@ To start playing **Pigeon Fight**, users need to own at least one NFT pigeon fro
 
 The **TON transaction** for NFT minting follows these steps:
 
-![Purchase](images/purchase.png)
+![Purchase](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/purchase.png?raw=true)
+
+[Mint Transaction](https://testnet.tonviewer.com/transaction/8c7d0e0331bb395d7c5472467931dab8632c7e882fb26bad4797fe557e849ea7)
 
 ## Step 2: Upgrade Your NFT
 
@@ -54,7 +56,9 @@ The **TON transaction** for NFT minting follows these steps:
 
 With each upgrade, the pigeon NFT becomes stronger and better equipped for future battles, creating a continuous gameplay loop where players can strengthen their assets and face increasingly challenging opponents.
 
-![Upgrade](images/upgrade.png)
+![Upgrade](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/upgrade.png?raw=true)
+
+[Upgrade Transaction](https://testnet.tonviewer.com/transaction/53d795805dc25a2a29deb0935ec292f4de67db418f21a5a01c8d008addc0fce8)
 
 ## Step 3: Challenge Opponents & Earn Experience
 
@@ -65,7 +69,9 @@ With each upgrade, the pigeon NFT becomes stronger and better equipped for futur
 
 Each battle provides a new opportunity for players to advance, upgrade, and strengthen their NFTs, making each victory a step toward creating the ultimate pigeon fighter.
 
-![Battle](images/battle.png)
+![Battle](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/battle.png?raw=true)
+
+[Battle Transaction](https://testnet.tonviewer.com/transaction/850f416f87a8f2fc0791ec6beffe49fc34ed00fc4555770f4957270922b143fb)
 
 ## Step 4: Healing Your NFT
 
@@ -80,37 +86,60 @@ Each battle provides a new opportunity for players to advance, upgrade, and stre
 
 By keeping their NFTs in optimal condition through regular healing, players can increase their winning potential in battles, making each fight a rewarding step toward mastery.
 
-![Item](images/item.png)
+![Item](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/item.png?raw=true)
+
+[Item Purchase Transaction](https://testnet.tonviewer.com/transaction/2aedc42f0297229b699b4a5827cfc6e3966cb16d89ee1bdc7e267b69d70bacad)
+
+# 🤑 Transaction Sponsor (Paymaster) using AEON payment
+
+To make **Pigeon Fight** more accessible and user-friendly, we’ve integrated the **AEON Payment System**, a third-party solution that simplifies in-game transactions and enhances the overall user experience. Here's what AEON integration brings to the game:
+
+- **Easy Onboarding**: New players can start playing without needing any TON tokens in their wallet, removing barriers for first-time users.
+- **Flexible Payments**: Players can pay using a wide variety of tokens or even fiat currency, providing maximum convenience and choice.
+- **Backup for Low TON Balance**: If a player’s TON balance is insufficient to purchase in-game items, AEON can step in to cover the transaction.
+
+### Payment Workflow
+
+The **AEON Payment Workflow** ensures a seamless transaction process for players. Below is an outline of how it works:
+
+1. **Transaction Request**: The player initiates a payment to purchase an in-game item or service.
+2. **Payment Gateway**: AEON processes the payment, allowing the player to pay with any supported token or fiat.
+3. **Conversion to TON**: The payment is converted to TON tokens, which are then used to complete the transaction on the **TON network**.
+4. **Transaction Confirmation**: Once the TON payment is successful, the in-game item or service is delivered to the player.
+
+This integration ensures that players can enjoy the game without worrying about TON token availability or compatibility issues. AEON makes transactions fast, secure, and effortless, keeping the focus on the gameplay.
+
+![AEON](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/aeon.png?raw=true)
 
 # 🐧 Pigeon Fight Collection - NFT Class
 
 Pigeon Fight NFT Collection - 23 NFT classes
 
-| Class             | Image                                            | Bonus Attack - Defense - Speed | Evolvability |
-| ----------------- | ------------------------------------------------ | ------------------------------ | ------------ |
-| Baker 🥖👩‍🍳        | ![Pigeon](images/pigeons/PigeonBaker.png)        | 5 - 0 - 0                      | 🚫           |
-| Bat 🦇            | ![Pigeon](images/pigeons/PigeonBat.png)          | 1 - 1 - 1                      | 🚫           |
-| Charlie 🎩🕴️      | ![Pigeon](images/pigeons/PigeonCharlie.png)      | 0 - 0 - 5                      | 🚫           |
-| Crusader 🛡️⚔️     | ![Pigeon](images/pigeons/PigeonCrusader.png)     | 0 - 3 - 0                      | ✅           |
-| DoubleWinged 🕊️🕊️ | ![Pigeon](images/pigeons/PigeonDoubleWinged.png) | 0 - 0 - 3                      | ✅           |
-| EGirl 💄🎧        | ![Pigeon](images/pigeons/PigeonEGirl.png)        | 0 - 0 - 0                      | 🚫           |
-| Fridgeon 🧊❄️     | ![Pigeon](images/pigeons/PigeonFridgeon.png)     | 0 - 3 - 0                      | 🚫           |
-| God 🌩️🕊️          | ![Pigeon](images/pigeons/PigeonGod.png)          | 3 - 3 - 3                      | 🚫           |
-| Hatoshi 🧠🔗      | ![Pigeon](images/pigeons/PigeonHatoshi.png)      | 0 - 0 - 3                      | 🚫           |
-| Infiltrator 🕵️‍♂️⚡  | ![Pigeon](images/pigeons/PigeonInfiltrator.png)  | 1 - 1 - 1                      | ✅           |
-| Kawaii 💖🎀       | ![Pigeon](images/pigeons/PigeonKawaii.png)       | 0 - 0 - 0                      | ✅           |
-| Knight ⚔️🛡️       | ![Pigeon](images/pigeons/PigeonKnight.png)       | 0 - 3 - 0                      | ✅           |
-| Mimic 🎭🔍        | ![Pigeon](images/pigeons/PigeonMimic.png)        | 0 - 5 - 0                      | 🚫           |
-| Normal 🐦         | ![Pigeon](images/pigeons/PigeonNormal.png)       | 0 - 0 - 0                      | ✅           |
-| Pi 🔢🍰           | ![Pigeon](images/pigeons/PigeonPi.png)           | 0 - 0 - 5                      | 🚫           |
-| Platy 🦆🌊        | ![Pigeon](images/pigeons/PigeonPlaty.png)        | 1 - 1 - 1                      | ✅           |
-| Selfie 📸💁‍♀️       | ![Pigeon](images/pigeons/PigeonSelfie.png)       | 5 - 0 - 0                      | 🚫           |
-| Sink 🚰🧼         | ![Pigeon](images/pigeons/PigeonSink.png)         | 0 - 5 - 0                      | 🚫           |
-| StrongA 🏋️‍♂️💪      | ![Pigeon](images/pigeons/PigeonStrongA.png)      | 3 - 0 - 0                      | ✅           |
-| Whey 💪🥛         | ![Pigeon](images/pigeons/PigeonWhey.png)         | 3 - 0 - 0                      | ✅           |
-| Winged 🕊️💨       | ![Pigeon](images/pigeons/PigeonWinged.png)       | 0 - 0 - 3                      | ✅           |
-| Wizzard 🧙‍♂️✨      | ![Pigeon](images/pigeons/PigeonWizzard.png)      | 5 - 0 - 0                      | 🚫           |
-| Wyrm 🐉🔥         | ![Pigeon](images/pigeons/PigeonWyrm.png)         | 3 - 0 - 0                      | 🚫           |
+| Class             | Image                                                                                                                 | Bonus Attack - Defense - Speed | Evolvability |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------ |
+| Baker 🥖👩‍🍳        | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonBaker.png?raw=true)        | 5 - 0 - 0                      | 🚫           |
+| Bat 🦇            | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonBat.png?raw=true)          | 1 - 1 - 1                      | 🚫           |
+| Charlie 🎩🕴️      | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonCharlie.png?raw=true)      | 0 - 0 - 5                      | 🚫           |
+| Crusader 🛡️⚔️     | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonCrusader.png?raw=true)     | 0 - 3 - 0                      | ✅           |
+| DoubleWinged 🕊️🕊️ | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonDoubleWinged.png?raw=true) | 0 - 0 - 3                      | ✅           |
+| EGirl 💄🎧        | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonEGirl.png?raw=true)        | 0 - 0 - 0                      | 🚫           |
+| Fridgeon 🧊❄️     | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonFridgeon.png?raw=true)     | 0 - 3 - 0                      | 🚫           |
+| God 🌩️🕊️          | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonGod.png?raw=true)          | 3 - 3 - 3                      | 🚫           |
+| Hatoshi 🧠🔗      | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonHatoshi.png?raw=true)      | 0 - 0 - 3                      | 🚫           |
+| Infiltrator 🕵️‍♂️⚡  | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonInfiltrator.png?raw=true)  | 1 - 1 - 1                      | ✅           |
+| Kawaii 💖🎀       | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonKawaii.png?raw=true)       | 0 - 0 - 0                      | ✅           |
+| Knight ⚔️🛡️       | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonKnight.png?raw=true)       | 0 - 3 - 0                      | ✅           |
+| Mimic 🎭🔍        | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonMimic.png?raw=true)        | 0 - 5 - 0                      | 🚫           |
+| Normal 🐦         | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonNormal.png?raw=true)       | 0 - 0 - 0                      | ✅           |
+| Pi 🔢🍰           | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonPi.png?raw=true)           | 0 - 0 - 5                      | 🚫           |
+| Platy 🦆🌊        | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonPlaty.png?raw=true)        | 1 - 1 - 1                      | ✅           |
+| Selfie 📸💁‍♀️       | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonSelfie.png?raw=true)       | 5 - 0 - 0                      | 🚫           |
+| Sink 🚰🧼         | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonSink.png?raw=true)         | 0 - 5 - 0                      | 🚫           |
+| StrongA 🏋️‍♂️💪      | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonStrongA.png?raw=true)      | 3 - 0 - 0                      | ✅           |
+| Whey 💪🥛         | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonWhey.png?raw=true)         | 3 - 0 - 0                      | ✅           |
+| Winged 🕊️💨       | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonWinged.png?raw=true)       | 0 - 0 - 3                      | ✅           |
+| Wizzard 🧙‍♂️✨      | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonWizzard.png?raw=true)      | 5 - 0 - 0                      | 🚫           |
+| Wyrm 🐉🔥         | ![Pigeon](https://github.com/Pigeon-Fight/.github/blob/master/profile/images/pigeons/PigeonWyrm.png?raw=true)         | 3 - 0 - 0                      | 🚫           |
 
 # 🎉 Why Play Pigeon Fight? 🎉
 
